@@ -1,6 +1,6 @@
 // app/layout.js
 import "./globals.css";
-import SearchBar from "@/components/SearchBar";
+import SearchBar from "@/Components/SearchBar";
 import Aside from "@/Components/Aside";
 
 export const metadata = {
