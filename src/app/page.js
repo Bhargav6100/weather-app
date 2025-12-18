@@ -21,7 +21,7 @@ export default async function HomePage() {
     currentWeather.weatherCode,
     currentWeather.isDay
   );
-    const videoSrc = (!currentWeather.isDay && theme==="sunny")?getWeatherVideoSrc("night"):getWeatherVideoSrc(theme);
+    const videoSrc = (!currentWeather.isDay && (theme==="sunny" || theme==="mainlyClear"))?getWeatherVideoSrc("night"):getWeatherVideoSrc(theme);
 
 
   return (
